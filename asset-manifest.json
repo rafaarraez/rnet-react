@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/rnet-react/static/js/main.bc9b6032.chunk.js",
+    "main.js.map": "/rnet-react/static/js/main.bc9b6032.chunk.js.map",
+    "runtime-main.js": "/rnet-react/static/js/runtime-main.13a31253.js",
+    "runtime-main.js.map": "/rnet-react/static/js/runtime-main.13a31253.js.map",
+    "static/css/2.eb520485.chunk.css": "/rnet-react/static/css/2.eb520485.chunk.css",
+    "static/js/2.53af9f6b.chunk.js": "/rnet-react/static/js/2.53af9f6b.chunk.js",
+    "static/js/2.53af9f6b.chunk.js.map": "/rnet-react/static/js/2.53af9f6b.chunk.js.map",
+    "index.html": "/rnet-react/index.html",
+    "precache-manifest.f45f1ffd0c24ebc048a859f00568bf7d.js": "/rnet-react/precache-manifest.f45f1ffd0c24ebc048a859f00568bf7d.js",
+    "service-worker.js": "/rnet-react/service-worker.js",
+    "static/css/2.eb520485.chunk.css.map": "/rnet-react/static/css/2.eb520485.chunk.css.map",
+    "static/js/2.53af9f6b.chunk.js.LICENSE.txt": "/rnet-react/static/js/2.53af9f6b.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/rnet-react/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13a31253.js",
+    "static/css/2.eb520485.chunk.css",
+    "static/js/2.53af9f6b.chunk.js",
+    "static/js/main.bc9b6032.chunk.js"
+  ]
+}
