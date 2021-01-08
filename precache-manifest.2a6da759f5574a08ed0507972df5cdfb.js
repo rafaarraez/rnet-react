@@ -1,27 +1,59 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11ff93570a04354356c9cc42ec3e8ce2",
+    "revision": "6e511fb4463114644de6a8a185dcb9b1",
     "url": "/rnet-react/index.html"
   },
   {
-    "revision": "19974be50a4b9b511f11",
+    "revision": "99fe69618c1c21ee02ef",
     "url": "/rnet-react/static/css/2.eb520485.chunk.css"
   },
   {
-    "revision": "19974be50a4b9b511f11",
-    "url": "/rnet-react/static/js/2.53af9f6b.chunk.js"
+    "revision": "99fe69618c1c21ee02ef",
+    "url": "/rnet-react/static/js/2.c83bd622.chunk.js"
   },
   {
     "revision": "5bd09eb7f2cf4d145d532d862be18942",
-    "url": "/rnet-react/static/js/2.53af9f6b.chunk.js.LICENSE.txt"
+    "url": "/rnet-react/static/js/2.c83bd622.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b35d3ed9ed91cc55a121",
-    "url": "/rnet-react/static/js/main.bc9b6032.chunk.js"
+    "revision": "d5393052789c001f8833",
+    "url": "/rnet-react/static/js/main.723b29d0.chunk.js"
   },
   {
     "revision": "fa1679551f85e7a561b1",
     "url": "/rnet-react/static/js/runtime-main.13a31253.js"
+  },
+  {
+    "revision": "bcf680d9e72cb2741c1b23c0ae8282da",
+    "url": "/rnet-react/static/media/1024_682.bcf680d9.jpg"
+  },
+  {
+    "revision": "35742dfea033fa79257b00ef0baa7bb6",
+    "url": "/rnet-react/static/media/1366_2100.35742dfe.jpg"
+  },
+  {
+    "revision": "863c2e0bd016295843695f014dd206ca",
+    "url": "/rnet-react/static/media/1366_2500.863c2e0b.jpg"
+  },
+  {
+    "revision": "a1e2e1027da2238eca7a7faa5948edeb",
+    "url": "/rnet-react/static/media/1920_33.a1e2e102.jpg"
+  },
+  {
+    "revision": "6d2e2aec1a15ac1398536781f5dfc759",
+    "url": "/rnet-react/static/media/1920_733.6d2e2aec.jpg"
+  },
+  {
+    "revision": "69b58bf1fd8eb58e6e4ff74984c65bc8",
+    "url": "/rnet-react/static/media/1_2000.69b58bf1.jpg"
+  },
+  {
+    "revision": "906a3d3641dc5200a35c42635cec7cd7",
+    "url": "/rnet-react/static/media/500_333.906a3d36.jpg"
+  },
+  {
+    "revision": "3dc39dabf75d24908dae514689e25cd1",
+    "url": "/rnet-react/static/media/500_3343.3dc39dab.jpg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
