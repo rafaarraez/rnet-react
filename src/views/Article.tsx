@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import ArticleComponent from '../Components/article/ArticleComponent'
-import data from "../assets/data/articles.json";
+import {data} from "../assets/data/articles.js";
+import avatar from '../assets/images/f173a2c126f4451161fe7f9055f8bcf9.jpeg'
+
 import {
     RouteComponentProps
 } from "react-router-dom";
@@ -20,17 +21,28 @@ interface getData {
     };
 }
 function Article({ match }: RouteComponentProps<TParams>) {
-    const [article, setArticle] = useState<Object>({});
-    useEffect(() => {
-        const getData: Object = data.filter((d) => d.id === parseInt(match.params.id));
-        setArticle({ ...article, getData });
+
+    const [article, setArticle] = useState<any[]>([]);
+
+    const getData = () => {
+        const algo = []
+        const res: any = data.filter((d) => d.id === parseInt(match.params.id));
+        res.forEach((element: any) => {
+           algo.push(element);
+        });
+        
         console.log(article);
-    }, []);
+        console.log(res);
+        
+    }
+    
+    useEffect(() => getData(), []);
+
     return (
         <React.Fragment>
             <div className="ui segment container">
                 <div className="ui basic segment">
-                    <h2 className="ui header">dsfgd</h2>
+                    <h2 className="ui header">dsfgdsssdd</h2>
                     <img alt="gfvhfg"
                         src=""
                         className="ui centered huge image" />
@@ -43,11 +55,11 @@ function Article({ match }: RouteComponentProps<TParams>) {
                 <div className="ui comments">
                     <h3 className="ui dividing header">Comentarios</h3>
                     <div className="comment">
-                        <a className="avatar">
-                            <img src="" />
-                        </a>
+                        <div className="avatar">
+                            <img src={avatar} alt="avatar" />
+                        </div>
                         <div className="content">
-                            <a className="author">Rafaaa</a>
+                            <span className="author">Rafa</span>
                             <div className="metadata">
                                 <span className="date">12/12/2020</span>
                             </div>

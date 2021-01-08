@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import data from "../../assets/data/articles.json";
+import { data } from "../../assets/data/articles.js";
 
 const HomeComponent = () => {
   return (

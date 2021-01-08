@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import FeaturedElement from "../featured-element/FeaturedElement";
-import data from "../../assets/data/articles.json";
+import {data} from "../../assets/data/articles.js";
 import styled from "styled-components";
 
 const Div = styled.div`

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import data from "../../assets/data/articles.json";
+import {data} from "../../assets/data/articles.js";
+import avatar from '../../images/f173a2c126f4451161fe7f9055f8bcf9.jpeg'
 
 
 interface Article {
@@ -27,7 +28,7 @@ function ArticleComponent({ id }: Article) {
                     <h3 className="ui dividing header">Comentarios</h3>
                     <div className="comment">
                         <a className="avatar">
-                            <img src="" />
+                            <img src={avatar} />
                         </a>
                         <div className="content">
                             <a className="author">Rafaaa</a>
