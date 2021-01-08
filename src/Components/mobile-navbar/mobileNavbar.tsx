@@ -13,16 +13,16 @@ const MobileNavbar = () => {
   return (
     <MobileNav className="ui massive borderless inverted white red bottom fixed menu">
       <div className="ui five column grid inverted white red container">
-        <Link to={'/category/apps'}  className="item column">
+        <Link to={'/category/tecnologia'}  className="item column">
           <i className="large desktop icon"></i>
         </Link>
-        <Link to={'/category/apps'}  className="item column">
+        <Link to={'/category/smartphones'}  className="item column">
           <i className="big mobile icon"></i>
         </Link>
         <Link to={'/category/apps'}  className="item column">
           <i className="large app store icon"></i>
         </Link>
-        <Link to={'/category/apps'}  className="item column">
+        <Link to={'/category/tutoriales'}  className="item column">
           <i className="large book icon"></i>
         </Link>
         <div className="item column">

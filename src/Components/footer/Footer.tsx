@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,13 +7,13 @@ const Footer = () => {
       <div className="ui stackable nine column centered grid">
         <div className="centered row">
           <div className="column">
-            <a href="/contact-us">Contactanos</a>
+            <Link to={'/contact-us'}>Contactanos</Link>
           </div>
           <div className="column">
-            <a href="/about-us">Sobre Nosotros</a>
+            <Link to={'/about-us'}>Sobre Nosotros</Link>
           </div>
           <div className="column">
-            <a href="/legal">Terminos y Condiciones</a>
+            <Link to={'/legal'}>Terminos y Condiciones</Link>
           </div>
           <div className="column">
             <button className="ui labeled icon basic button">

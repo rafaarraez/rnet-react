@@ -24,15 +24,13 @@ function Article({ match }: RouteComponentProps<TParams>) {
 
     const [art, setArt] = useState<any>({});
     const [loading, setLoading] = useState<boolean>(true);
-    const getData = () => {
+
+
+    useEffect(() => {
         const res: any = data.filter((d) => d.id === parseInt(match.params.id));
         setArt(res[0]);
         setLoading(false);
-    }
-
-    useEffect(() => {
-        getData()
-    }, []);
+    }, [match]);
 
     return (
         <React.Fragment>

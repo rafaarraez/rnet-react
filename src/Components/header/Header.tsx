@@ -27,16 +27,16 @@ const Header = () => {
         <h1 className="ui header item">
           <Link to={'/'}>RNet</Link>
         </h1>
-        <Link to={'/category/apps'} className="item">
+        <Link to={'/category/tecnologia'} className="item">
           <i className="desktop icon"></i>Tecnologia
         </Link>
-        <Link to={'/category/apps'} className="item">
+        <Link to={'/category/smartphones'} className="item">
           <i className="mobile icon"></i>Smartphones
         </Link>
         <Link to={'/category/apps'} className="item">
           <i className="app store icon"></i>Apps
         </Link>
-        <Link to={'/category/apps'} className="item">
+        <Link to={'/category/tutoriales'} className="item">
           <i className="book icon"></i>Tutoriales
         </Link>
       </div>
