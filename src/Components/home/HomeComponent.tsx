@@ -9,7 +9,7 @@ const HomeComponent = () => {
       <div className="ui four column doubling stackable grid container">
         {data.map((article) => (
           <div className="column" key={article.id}>
-            <Link to={'/article/' + article.id} className="ui centered card">
+            <Link to={'/article/' + article.id}  className="ui centered card">
               <div className="ui fluid image">
                 <img src={article.imageUrl} alt={article.title} />
               </div>
